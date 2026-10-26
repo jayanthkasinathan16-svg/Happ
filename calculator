@@ -1,0 +1,15 @@
+num1=int(input("Enter first number: "))
+operation=input("Enter operation (+, -, *, /): ")
+num2=int(input("Enter second number: "))
+
+if operation == "+":
+    r=num1 + num2
+elif operation== "-":
+    r=num1 - num2
+elif operation == "*":
+    r=num1 * num2
+elif operation == "/":
+    r=num1 / num2
+print("The result is: " + str(r))
+
+print(" magane idhu example project dhan and idhu oru dabba project nu unnake theriyum so over ahh excite agadha nee edha just github kathuka dhan pandre ok ahhh")
